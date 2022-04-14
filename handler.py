@@ -23,3 +23,8 @@ def handle(req):
     resp = {"Params": params}
 
     return json.dumps(resp)
+
+
+if __name__ == '__main__':
+    #run()
+    handle(None)
